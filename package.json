@@ -1,0 +1,23 @@
+{
+  "name": "ciboulettes",
+  "version": "0.0.0-dev",
+  "repository": "git@github.com:cchampou/ciboulettes.git",
+  "author": "cchampou <clement@champouillon.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/react": "^18.0.5",
+    "@types/react-dom": "^18.0.1",
+    "@typescript-eslint/parser": "^5.20.0",
+    "eslint": "^8.13.0",
+    "eslint-prettier-config": "^1.0.1",
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.5"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "6"
+  }
+}
