@@ -1,11 +1,9 @@
 import { createRoot } from 'react-dom/client';
-
-function App() {
-  return <h1>Les Ciboulettes</h1>;
-}
+import Router from './Router';
+import './styles/init.css';
 
 const rootElement = document.getElementById('root');
 
 if (rootElement) {
-  createRoot(rootElement).render(<App />);
+  createRoot(rootElement).render(<Router />);
 }
