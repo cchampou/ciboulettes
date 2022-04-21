@@ -6,13 +6,23 @@ import Link from './link/Link';
 function Header() {
   return (
     <div className="container mx-auto py-4 flex flex-row justify-center content-center">
-      <Link to="/" label="Team-Buildings et Séminaires" />
-      <Link to="/" label="Formations" />
-      <Link to="/" label="L'association" />
-      <img src={logo} alt="Logo Les Ciboulettes rond" className="rounded-full h-24" />
-      <Link to="/" label="Bilan de compétences" />
-      <Link to="/" label="Le Tiers-Lieu" />
-      <Link to="/" label="Contact" />
+      <div className="flex-1 justify-between flex">
+        <Link to="/" label="Team-Buildings et Séminaires" />
+        <Link to="/" label="Formations" />
+        <Link to="/" label="L'association" />
+      </div>
+      <div className="flex-0 mx-10">
+        <img
+          src={logo}
+          alt="Logo Les Ciboulettes rond"
+          className="rounded-full h-24"
+        />
+      </div>
+      <div className="flex-1 flex justify-between">
+        <Link to="/" label="Bilan de compétences" />
+        <Link to="/" label="Le Tiers-Lieu" />
+        <Link to="/" label="Contact" />
+      </div>
     </div>
   );
 }

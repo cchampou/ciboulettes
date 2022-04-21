@@ -7,8 +7,14 @@ export const FixedBackground = styled('div')`
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  left: 0;
+  left: -10vw;
   bottom: 0;
-  height: 50vh;
+  height: 90vh;
+  z-index: -1;
   width: 20vw;
+
+  @media (max-width: 480px) {
+    width: 100vw;
+    left: -50vw;
+  }
 `;
