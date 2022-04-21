@@ -7,7 +7,7 @@ function Router() {
   return (
     <BrowserRouter>
       <Header />
-      <div className="container">
+      <div className="container mx-auto px-10">
         <Routes>
           <Route path="/" element={<Homepage />} />
         </Routes>
