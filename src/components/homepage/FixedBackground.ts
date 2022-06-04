@@ -14,6 +14,7 @@ export const FixedBackground = styled('div')`
   width: 20vw;
 
   @media (max-width: 480px) {
+    height: 60vh;
     width: 100vw;
     left: -50vw;
   }

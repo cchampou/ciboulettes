@@ -5,7 +5,7 @@ function Homepage() {
   return (
     <>
       <FixedBackground />
-      <div className="flex md:flex-row flex-col mt-10">
+      <div className="flex md:flex-row flex-col mt-10 items-center">
         <div className="flex-1 mx-10 text-center">
           <img src={facade} alt="Les locaux des Ciboulettes" />
         </div>
