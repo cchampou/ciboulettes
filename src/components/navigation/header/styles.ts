@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { NavLink } from 'react-router-dom';
 import { desktop } from '../../../styles/mediaQueries';
 
 export const HeaderMainContainer = styled('div')`
@@ -18,7 +19,7 @@ export const HeaderBurgerWrapper = styled('div')`
   }
 `;
 
-export const HeaderLogoContainer = styled('div')`
+export const HeaderLogoContainer = styled(NavLink)`
   width: 5rem;
   height: 5rem;
   margin: 1rem;

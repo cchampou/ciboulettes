@@ -12,11 +12,11 @@ function Header() {
   return (
     <HeaderMainContainer>
       <DesktopLinks>
-        <Link to="/" label="Team-Buildings et Séminaires" />
+        <Link to="/teambuilding" label="Team-Buildings et Séminaires" />
         <Link to="/" label="Formations" />
         <Link to="/" label="L'association" />
       </DesktopLinks>
-      <HeaderLogoContainer>
+      <HeaderLogoContainer to="/">
         <img src={logo} alt="Logo Les Ciboulettes rond" />
       </HeaderLogoContainer>
       <HeaderBurgerWrapper>Menu</HeaderBurgerWrapper>
